@@ -1,1 +1,0 @@
-import{d as s,c,g as o,i as l,r as i,t as u}from"./web.CBkkP8fM.js";var d=u("<div>");const v=n=>{const[e,r]=c(n.count),a=()=>{r(e()+1)};return(()=>{var t=o(d);return t.$$click=a,l(t,e),i(),t})()};s(["click"]);export{v as Counter};

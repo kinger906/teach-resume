@@ -1,13 +1,12 @@
-import { createSignal } from "solid-js"
+import { createSignal } from "solid-js";
 
-interface Props {
-  count: number
-}
+export function Counter(props) {
+  const [count, setCount] = createSignal(props.count);
 
-export const Counter = (props:Props)=>{
-  const [count, setCount] = createSignal(props.count)
-  const handleClick = ()=>{
-    setCount(count() + 1)
-  }
-  return <div onClick={handleClick}>{count()}</div>
+  return (
+    <div>
+      counter {count()}
+      <button onClick={() => setCount(count() + 1)}>click</button>
+    </div>
+  );
 }

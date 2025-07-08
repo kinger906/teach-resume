@@ -1,0 +1,1 @@
+import{g as r,i as m,t as a}from"./chunks/web.d75c6154.js";var n=a('<span class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">');function s(t){return(()=>{var e=r(n);return m(e,()=>t.name),e})()}export{s as Skill};
